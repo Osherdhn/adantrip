@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adanntrip Project</title>
+    <link rel="icon" href="./assets/iberia.svg">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="nav-container left justify-content-between h-50 bg-dark d-flex align-items-center">
+        <img class="d-block d-sm-none order-sm-1" src="./assets/nav-icon.svg" alt="" />
+        <div class="left-container col-6">
+            <ul class="list-unstyled nav d-sm-flex justify-content-evenly">
+                <a href="">
+                    <li class="d-flex col-12 col-sm-2"><b>Adantrip</b></li>
+                </a>
+                <a href="">
+                    <li class="d-none d-sm-flex col-2">Hotels</li>
+                </a>
+                <a href="">
+                    <li class="d-none d-sm-flex col-2"><b>Rooms</b></li>
+                </a>
+                <a href="">
+                    <li class="d-none d-sm-flex col-2"><b>Fligths</b></li>
+                </a>
+                <a href="">
+                    <li class="d-none d-sm-flex col-2">Cars</li>
+                </a>
+                <a href="">
+                    <li class="d-none d-sm-flex col-2">Experiences</li>
+                </a>
+
+            </ul>
+        </div>
+        <div class="right-nav col-6 col-sm-3">
+            <div class="right-container row">
+                <ul class="list-unstyled nav d-sm-flex justify-content-evenly align-items-center">
+                    <a href="">
+                        <li class="col-12 d-none d-sm-flex align-items-center">
+                            <p class="justify-content-center">USD</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="col-12 d-none d-sm-flex align-items-center">
+                            <img src="./assets/united-states.png" alt="">
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="col-12 d-none d-sm-flex align-items-center">
+                            <img class="bg-light rounded me-1 p-1" src="./assets/user.png" alt="">
+                            <p> My Account</p>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="col-12 d-sm-none align-items-center">
+                            <img class="bg-light m-3 me-1 p-1 rounded" src="./assets/bars-solid.svg" alt="">
+                        </li>
+                    </a>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- main-page -->
+
+    <div class="main-page container row bg-light">
+        <div class="left container col-8">
+
+            <!-- box-1 -->
+
+            <section class="trip-details d-flex row">
+                <div class="left-side col-12 col-sm-6">
+                    <h2>Buenos Aires <img class="p-4" src="./assets/arrow-right-solid.svg" alt=""> <br> Ile de France</h2> <br>
+                    <p>Round Trip, Economy, 1 passenger </p>
+                    <p> Depart: Aug 15, 2019</p>
+                    <p> Return: Aug 16, 2019</p>
+                    <br><br>
+                    <a href="">FLIGHT DETAILS <img class="p-4" src="./assets/expand-logo.png" alt=""></a>
+                </div>
+
+                <div class="right-side d-none d-sm-flex col-sm-6">
+                    <img src="./assets/iberia.svg" alt="">
+                </div>
+            </section>
+            <hr>
+
+            <!-- box-2 -->
+
+            <section class="passenger-details row">
+                <div class="top col-12">
+                    <h1>Enter Passenger Details</h1>
+                    <h2>passenger 1</h2>
+                </div>
+                <div class="input-boxes col-12 row">
+                    <div class="left-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-4 m-1 co" type="text" placeholder="Month">
+                        <input class="d-flex col-12 col-sm-3 m-1" type="text" placeholder="Day">
+                        <input class="d-flex col-12 col-sm-3 m-1" type="text" placeholder="Year">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="First Name">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Passport Serial">
+
+                    </div>
+                    <div class="right-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Gender">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Last Name">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Citizenship">
+                    </div>
+                </div>
+            </section>
+
+            <!-- box-3 -->
+
+            <section class="payment-details row">
+                <div class="top col-12 col-sm-6">
+                    <h1>Enter Billing Information</h1>
+                    <h2>Billing Address</h2>
+                </div>
+                <div class="input-boxes col-12 row">
+                    <div class="left-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Street (line 1)">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Postal Code">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="State/Region">
+                    </div>
+                    <div class="right-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Street (line 2)">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="City">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Select Country">
+                    </div>
+                </div>
+                <h2>Card Details</h2>
+                <div class="input-boxes row">
+                    <div class="left-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Name on Card">
+                        <input class="d-flex col-12 col-sm-3 m-1" type="text" placeholder="(1) Jan">
+                        <input class="d-flex col-12 col-sm-3 m-1" type="text" placeholder="2018">
+                        <input class="d-flex col-12 col-sm-4 m-1" type="text" placeholder="Security Code">
+                    </div>
+                    <div class="right-side col-12 col-sm-6 row">
+                        <input class="d-flex col-12 col-sm-11 m-1" type="text" placeholder="Credit/Debit Card Number">
+                        <div class="cards col-12">
+                            <img src="./assets/mastercard.png" alt="">
+                            <img src="./assets/Visa.png" alt="">
+                            <img src="./assets/Visa-electronic.png" alt="">
+                            <img src="./assets/discover new.png" alt="">
+                            <img src="./assets/maestro.png" alt="">
+                            <img src="./assets/amex.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </section>
+        </div>
+
+        <!-- right text container -->
+
+        <div class="right-container d-none d-sm-block col-sm-3">
+            <div class="box border p-1 m-1">
+                <b>Booking Summary</b>
+                <p>Round Trip, Economy, <br>
+                    1 passenger <br>
+                    Depart: Aug 15, 2019 <br>
+                    Return:Aug 16, 2019
+                </p>
+            </div>
+            <div class="box border p-1 m-1">
+                <b>Charges</b>
+                <div class="text">
+                    <div class="left-side">
+                        <p>1 passenger</p>
+                        <h6>Economy</h6>
+                    </div>
+                    <div class="right-side">
+                        <b>$1907.68</b>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="left-side">
+                        <p>Total</p>
+                    </div>
+                    <div class="right-side">
+                        <b>$1907.68</b>
+                    </div>
+                </div>
+            </div>
+            <div class="box border m-1">
+                <div class="text row">
+                    <div class="left-side col-3">
+                        <img src="./assets/v-logo.png" alt="">
+                    </div>
+                    <div class="right-side col-8">
+                        <b>Manage your bookings!</b>
+                        <p>you're in control of your booking - no registration <br> required.</p>
+                    </div>
+                </div>
+                <div class="text row">
+                    <div class="left-side col-3">
+                        <img src="./assets/v-logo.png" alt="">
+                    </div>
+                    <div class="right-side col-8">
+                        <b>Customer support available 24/7 worldwide!</b>
+                        <p>Website and customer support in English and 41 <br> other languages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- total + box -->
+
+    <div class="bottom container row bg-light">
+        <section class="total col-10 col-sm-8 ms-5">
+            <div class="row">
+                <div class="left-side col-12 col-sm-6">
+                    <h1>Total</h1>
+                    <p>By clicking book now button you agree with terms and conditionals and money back
+                        gurantee.
+                        Thank you for
+                        trusting our service.</p>
+                </div>
+                <div class="right-side col-12 col-sm-6">
+                    <p class="price fs-1 m-4 ms-5">$1907.68</p>
+                </div>
+            </div>
+            <button class="col-12 bg-warning text-light p-2">
+                <b>book now</b>
+            </button>
+        </section>
+
+        <div class="box box-bottom container border p-1 d-none d-sm-block col-sm-3">
+            <div class="text row">
+                <div class="left-side col-3">
+                </div>
+                <div class="right-side col-8">
+                    <p>you're in control of your booking - no registration <br> required.</p>
+                </div>
+            </div>
+            <div class="text row">
+                <div class="left-side col-3">
+                    <img src="./assets/v-logo.png" alt="">
+                </div>
+                <div class="right-side col-8">
+                    <b>Customer support available 24/7 worldwide!</b>
+                    <p>Website and customer support in English and 41 <br> other languages</p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+    <!-- footer -->
+
+    <div class="footer-container row bg-secondary text-center">
+        <div class="col-sm-2 m-3">
+            <p class="fs-4">Adantrip</p>
+            <p> Rellentesque quam suscipit non aptent torquent <br> commodo curae ut aliquet augue tortor cubilia <br>
+                lobortis <br><br> Suscipit risus varius torquent aptent velit felis <br> sem himenaeos lacus fermentum
+                potenti facilisi <br> felis vulputate
+            </p>
+        </div>
+
+        <ul class="list-unstyled col-sm-2">
+            <li> <b class="fs-5">Travel Mate</b> </li>
+            <li>About Travel Mate</li>
+            <li>Mobile App</li>
+            <li>Customer Support</li>
+            <li>Advertising</li>
+            <li>Jobs</li>
+            <li>Privacy Policy</li>
+            <li>Terms of use</li>
+        </ul>
+        <ul class="list-unstyled col-sm-2">
+            <li> <b class="fs-5">Explore</b> </li>
+            <li>Countries</li>
+            <li>Regions</li>
+            <li>Cities</li>
+            <li>Districs</li>
+            <li>Airports</li>
+            <li>Hotels</li>
+            <li>Places of Inerest</li>
+        </ul>
+        <ul class="list-unstyled col-sm-2">
+            <li> <b class="fs-5">Book</b> </li>
+            <li>Apartments</li>
+            <li>Resorts</li>
+            <li>Villas</li>
+            <li>Hostels</li>
+            <li>B&Bs</li>
+            <li>Guesthouses</li>
+            <li>Hotel Chains</li>
+        </ul>
+        <div class="suitcase col-sm-1 m-4">
+            <p class="text-light mt-5"><b>Save up to50% off your next trip</b> <br>
+                Subscribe to unlock our secret deals </p>
+            <input type="text" placeholder="Type your e-mail here"> <br><br>
+            <button class="bg-warning p-2"><b>GET DEALS</b></button>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+
+    <div class="copyright-container row justify-content-between bg-dark d-flex p-2">
+        <div class="left-side col-12 col-sm-6 ps-5">
+            <p class="text-light">Copyright © 2018 <b class="text-light">Adantrip</b>. All rights reserved.</p>
+        </div>
+        <div class="right-side col-12 col-sm-6">
+            <ul class="list-unstyled nav-width d-flex justify-content-evenly">
+                <a href="">
+                    <li><img class="bg-light rounded-circle" src="./assets/facebook-brands.svg" alt=""></li>
+                </a>
+                <a href="">
+                    <li><img class="bg-light rounded-circle" src="./assets/google-brands.svg" alt=""></li>
+                </a>
+                <a href="">
+                    <li><img class="bg-light rounded-circle" src="./assets/twitter-brands.svg" alt=""></li>
+                </a>
+                <a href="">
+                    <li><img class="bg-dark rounded-circle" src="./assets/icon-youtube.svg" alt=""></li>
+                </a>
+                <a href="">
+                    <li><img class="bg-dark rounded-circle" src="./assets/icon-instagram.svg" alt=""></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

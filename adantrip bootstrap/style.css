@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+}
+
+a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(133, 133, 133);
+  transition: 1s;
+}
+
+.nav-container .right-container ul li img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.main-page {
+  z-index: 3;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.trip-details .left-side img {
+  width: 80px;
+  height: 80px;
+}
+
+.payment-details .input-boxes .right-side .cards img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.bottom {
+  margin-top: -25px;
+  padding-right: -150px;
+}
+
+.box-bottom {
+  margin-top: -10px;
+  font-size: 13px;
+  height: 200px;
+}
+
+.footer-container .suitcase {
+  background-image: url(./assets/suitcase.png);
+  height: 350px;
+  width: 350px;
+  background-repeat: no-repeat;
+}
+.footer-container .footer-text {
+  font-size: 12px;
+}
+
+.copyright-container .right-side ul li img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
